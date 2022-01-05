@@ -3,12 +3,12 @@ use ict_practice;
 
 SELECT * FROM usertbl;
 
--- ORDER BY는 결과물의 갸수나 종류에는 영향을 미치지 않지만
+-- ORDER BY는 결과물의 갯수나 종류에는 영향을 미치지 않지만
 -- 결과물을 순서대로 (오름차순,내림차순) 정렬하는 기능을 가집니다.
 -- SELECT 컬럼명 FROM 테이블명 ORDER BY  기준컬럼 정렬기준;
 -- 정렬기준은 ASC(오름차순), DESC(내림차순) 이 있으며
 -- 입력이 따로 없는 경우는 기본을 ASC로 잡습니다.
--- 가입한 순서 (reg_date순으로 오름차순 조회를 해 보겠습니다.
+-- 가입한 순서 (reg_date)순으로 오름차순 조회를 해 보겠습니다.
 SELECT * FROM usertbl ORDER BY reg_date ASC;
 SELECT * FROM usertbl ORDER BY reg_date DESC;
 
